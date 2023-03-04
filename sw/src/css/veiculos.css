@@ -1,0 +1,46 @@
+  img{
+    width: 80px;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+  }
+
+  main{
+    padding-top: 7%;
+  }
+  
+  table {
+    width: 50%;
+    /* float: left; */
+    margin: 1% 0 0 10%;
+    background-color: #242424;
+    border-collapse: collapse;
+    border: 2px solid #585858;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+
+  footer {
+    margin: 0 20px;
+    background-color: black;
+    height: 100px;
+  }
+  
+  
