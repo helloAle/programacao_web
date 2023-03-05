@@ -11,31 +11,75 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/pagina.css">
 </head>
+  
+<header>
+  <nav>
+    <div class="menu-toggle">conheça o universo</div>
+      <ul class="inicio">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="especies.html">Espécies</a></li>
+        <li><a href="veiculos.html">Veículos</a></li>
+        <li><a href="planetas.html">Planetas</a></li>
+      </ul>
+  </nav>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const inicio = document.querySelector('.inicio');
+    
+      menuToggle.addEventListener('click', function() {
+      inicio.classList.toggle('show');
+    });
+  </script>
+</header>
+
 <body>
-  <header>
-    <nav>
-        <ul class="inicio">
-          <li><a href="especies.html">Espécies</a></li>
-          <li><a href="veiculos.html">Veículos</a></li>
-          <li><a href="planetas.html">Planetas</a></li>
-        </ul>
-    </nav>
-  </header>
 
   <main>
     <img src="./img/download.jfif">
-    <p>Star Wars é uma franquia de mídia americana épica de ficção cientifica, 
-        criada por George Lucas e centrada em um filme que começou em 
-        1977 chamado Star Wars.<br/> A saga rapidamente se tornou 
-        um fenômeno da cultura pop, com sequências e prequelas, programas de TV, 
-        videogames, livros e muito mais.<br/> Star Wars segue as aventuras de vários 
-        personagens em uma galáxia fictícia cheia de seres exóticos,<br/> planetas 
-        distantes e conflitos entre o lado claro e o lado sombrio da Força.</p><br/>
+    <p id="apresentacao">
+      Esta landing Page é um projeto para a matéria de programação web com a temática de Star Wars.<br/><br/>
+      Star Wars é uma franquia de mídia americana épica de ficção cientifica, 
+      criada por George Lucas <br/>e centrada em um filme que começou em 
+      1977 chamado Star Wars.<br/> A saga rapidamente se tornou 
+      um fenômeno da cultura pop, com sequências e prequelas, programas de TV, 
+      <br/>videogames, livros e muito mais.<br/><br/> Star Wars segue as aventuras de vários 
+      personagens em uma galáxia fictícia cheia de seres exóticos,<br/> planetas 
+      distantes e conflitos entre o lado claro e o lado sombrio da Força.<br/><br/>
+      May the 4th be with you!
+    </p><br/>
   </main>
+
+  <body>
+    <!-- <div id="resumo">
+      <h1>Cinegrafia</h1><br/>
+      <p>
+        Star Wars é uma franquia cinematográfica que possui diversas produções ao longo de décadas. 
+        Na cinematografia, podemos destacar que a história se desenrola em diversas épocas e aborda 
+        temas como família, lealdade e conflitos.
+        <br/><br/><br/>
+      </p>
+      <h1>Ambientação</h1><br/>
+      <p>
+        A ambientação é um dos pontos fortes da franquia, com locações em planetas variados e 
+        tecnologias futuristas que tornam o universo de Star Wars único e fascinante. 
+        As naves e veículos, como o Millennium Falcon e o AT-AT, também são icônicos e 
+        ajudam a criar a imersão do público na história.
+        <br/><br/><br/>
+      </p>
+      <h1>Inspirações</h1><br/>
+      <p>
+        As inspirações para a criação da franquia são diversas, desde clássicos da literatura, 
+        como a obra de Joseph Campbell, até filmes de samurais e faroestes. A mitologia criada 
+        por George Lucas e seus sucessores também se baseia em diversos conceitos religiosos e 
+        filosóficos, como o conceito de Força e o dualismo entre o lado luminoso e o lado sombrio.
+      </p>
+    </div> -->
+  </body>
 
   <footer>
     <br/>
-    <p1> &copyAlê </p1>
+    <p></p>
+    <!-- <p1> &copyAlê </p1> -->
   </footer>
 </body>
 </html>
