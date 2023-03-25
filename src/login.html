@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
+	<title>Cadastro</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Cadastro</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="senha" required>
+                        <label for="">senha</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Lembrar senha</label>
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+                    <button>Log in</button>
+                    <div class="register">
+                        <p>Não possuo uma conta <a href="#">Registrar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script>
+		function showForceOptions() {
+			var forceOptionsDiv = document.getElementById("force-options");
+			var isForceUser = document.getElementById("sim").checked;
+
+			if (isForceUser) {
+				forceOptionsDiv.style.display = "block";
+			} else {
+				forceOptionsDiv.style.display = "none";
+				hideCargoOptions();
+			}
+		}
+
+		function showCargoOptions() {
+			var cargoOptionsDiv = document.getElementById("cargo-options");
+			var forcaTipo = document.querySelector('input[name="forca_tipo"]:checked').value;
+
+			if (forcaTipo === "jedi") {
+				var cargoSelect = document.getElementById("cargo");
+				cargoSelect.innerHTML = '<option value="Mestre Jedi">Mestre Jedi</option><option value="Padawan">Padawan</option>';
+			} else if (forcaTipo ==="sith") {
+            var cargoSelect = document.getElementById("cargo");
+                cargoSelect.innerHTML = '<option value="Lorde Sith">Lorde Sith</option><option value="Aprendiz Sith">Aprendiz Sith</option>';
+            } else if (forcaTipo === "neutro") {
+            var cargoSelect = document.getElementById("cargo");
+                cargoSelect.innerHTML = '<option value="Cavaleiro Jedi Cinza">Cavaleiro Jedi Cinza</option><option value="Membro do Conselho Jedi">Membro do Conselho Jedi</option><option value="Nenhum">Nenhum</option>';
+            }
+            cargoOptionsDiv.style.display = "block";
+	    }
+
+	    function hideCargoOptions() {
+		    var cargoOptionsDiv = document.getElementById("cargo-options");
+		    cargoOptionsDiv.style.display = "none";
+	    }
+    </script>
+</body>
+</html>
