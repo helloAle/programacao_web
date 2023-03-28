@@ -1,0 +1,61 @@
+<!-- 
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Alexandre 2111127
+25/02/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Wars</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/pagina.css">
+</head>
+  
+<header>
+  <nav>
+    <div class="menu-toggle">conheça o universo</div>
+      <ul class="inicio">
+        <li><a href="especies.html">Espécies</a></li>
+        <li><a href="veiculos.html">Veículos</a></li>
+        <li><a href="planetas.html">Planetas</a></li>
+      </ul>
+  </nav>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const inicio = document.querySelector('.inicio');
+    
+      menuToggle.addEventListener('click', function() {
+      inicio.classList.toggle('show');
+    });
+  </script>
+</header>
+
+<main>
+  <img src="./img/download.jfif">
+  <p id="apresentacao">
+    Esta landing Page é um projeto para a matéria de programação web com a temática de Star Wars.<br/><br/>
+    Star Wars é uma franquia de mídia americana épica de ficção cientifica, 
+    criada por George Lucas <br/>e centrada em um filme que começou em 
+    1977 chamado Star Wars.<br/> A saga rapidamente se tornou 
+    um fenômeno da cultura pop, com sequências e prequelas, programas de TV, 
+    <br/>videogames, livros e muito mais.<br/><br/> Star Wars segue as aventuras de vários 
+    personagens em uma galáxia fictícia cheia de seres exóticos,<br/> planetas 
+    distantes e conflitos entre o lado claro e o lado sombrio da Força.<br/><br/>
+    May the 4th be with you!
+  </p><br/>
+</main>
+
+<body>
+</body>
+
+<footer>
+  <br/>
+  <p></p>
+  <!-- <p1> &copyAlê </p1> -->
+</footer>
+
+</html>
