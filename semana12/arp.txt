@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Curso de Engenharia de Software - UniEVANGÉLICA 
 Disciplina de Programação Web 
 Dev: Alexandre
+=======
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Alexandre
+>>>>>>> 4de13dc5b6a00d254a24e82bad155b85699a25ac
 09/05
