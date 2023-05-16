@@ -1,0 +1,7 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Alexandre 
+13/04/2023
+
+SPA(single page application) é um Aplicativo de pagina Unica, é uma aplicação web que se baseia em uma unica pagina web com o objetivo de fornecer uma experiencia de usuário, como um eplicativo de desktop.
+Alguns exemplos são aplicações de email, Netflix, Twitter, etc. Nelas, não é necessário o reload de toda a pagina, apenas da parte central.

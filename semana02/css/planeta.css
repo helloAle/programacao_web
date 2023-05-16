@@ -1,0 +1,57 @@
+  /* 
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Alexandre 2111127
+25/02/2023 
+*/
+header {
+    background-color: #0000005d;
+    padding: 20px 0;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/*-------------------------------------*/
+
+img{
+    opacity: 0.5;
+    display: inline-block;
+    width: 33%;
+}
+
+/*-------------------------------------*/
+
+table {
+    width: 50%;
+    /* float: left; */
+    margin: 5% 0 0 5%;
+    background-color: #242424;
+    border-collapse: collapse;
+    border: 2px solid #585858;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  /*-------------------------------------*/
+
+  body {
+    background-color: #333;
+    background-image: linear-gradient(to bottom, #000, #173f88, #e2dd96, #9e6632, #440a0a, #251414, #000, #000);
+
+  }
