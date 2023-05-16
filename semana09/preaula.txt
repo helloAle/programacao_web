@@ -1,0 +1,5 @@
+Imagine que nosso site sobre Star Wars seja uma grande nave espacial, que tem a aparência externa (a interface visual) como seu front-end. Essa nave tem muitas salas, quartos e corredores internos (os componentes e lógica interna do site), que são o backend.
+
+No entanto, para que nossa nave possa se comunicar e trocar informações com outras naves, precisamos de uma linguagem comum, como um sistema de comunicação intergaláctico (a API Rest). É por meio dessa API que nossa nave pode enviar e receber informações de outros sistemas, como um banco de dados de planetas, por exemplo.
+
+Assim, podemos pensar no front-end como a fachada da nossa nave, o backend como seu interior e a API Rest como o sistema de comunicação que conecta nossa nave a outros sistemas no universo de Star Wars. Juntos, eles garantem que nossa nave possa funcionar corretamente, interagir com outros sistemas e oferecer uma experiência incrível para nossos usuários.

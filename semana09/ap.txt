@@ -1,0 +1,22 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Alexandre
+09/05
+
+GET /api/planets - obter a lista de planetas
+POST /api/planets - criar um novo planeta
+GET /api/planets/{planet_id} - obter informações de um planeta específico por ID
+PUT /api/planets/{planet_id} - atualizar informações de um planeta específico por ID
+DELETE /api/planets/{planet_id} - excluir um planeta específico por ID
+
+GET /api/ships - obter a lista de naves
+POST /api/ships - criar uma nova nave
+GET /api/ships/{ship_id} - obter informações de uma nave específica por ID
+PUT /api/ships/{ship_id} - atualizar informações de uma nave específica por ID
+DELETE /api/ships/{ship_id} - excluir uma nave específica por ID
+
+GET /api/species - obter a lista de espécies
+POST /api/species - criar uma nova espécie
+GET /api/species/{species_id} - obter informações de uma espécie específica por ID
+PUT /api/species/{species_id} - atualizar informações de uma espécie específica por ID
+DELETE /api/species/{species_id} - excluir uma espécie específica por ID
