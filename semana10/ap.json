@@ -1,0 +1,47 @@
+{
+  "name": "Nome da Espécie",
+  "classification": "Classificação da Espécie",
+  "designation": "Designação da Espécie"
+}
+{
+  "message": "Espécie criada com sucesso",
+  "data": {
+    "id": "1",
+    "name": "Nome da Espécie",
+    "classification": "Classificação da Espécie",
+    "designation": "Designação da Espécie"
+  }
+}
+{
+  "species": [
+    {
+      "id": "1",
+      "name": "Espécie 1",
+      "classification": "Classificação 1",
+      "designation": "Designação 1"
+    },
+    {
+      "id": "2",
+      "name": "Espécie 2",
+      "classification": "Classificação 2",
+      "designation": "Designação 2"
+    }
+  ]
+}
+{
+  "name": "Novo Nome da Espécie",
+  "classification": "Nova Classificação da Espécie",
+  "designation": "Nova Designação da Espécie"
+}
+{
+  "message": "Espécie atualizada com sucesso",
+  "data": {
+    "id": "1",
+    "name": "Novo Nome da Espécie",
+    "classification": "Nova Classificação da Espécie",
+    "designation": "Nova Designação da Espécie"
+  }
+}
+{
+  "message": "Espécie removida com sucesso"
+}
